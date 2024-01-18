@@ -1,3 +1,4 @@
 body { 
     background-image: url(images/red-pandas.jpg);
+    background-size: cover;
 }
