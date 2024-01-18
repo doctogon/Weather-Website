@@ -8,6 +8,6 @@ $(document).ready(()=>{
     function (data) {
 
         // Displayin IP address on screen
-        $("#gfg").html(data.ip);
+        document.getElementById("#gfg").innerHTML = data.ip;
     })
 });
