@@ -1,4 +1,14 @@
 html { 
     background-image: url(/Weather-Website/images/red-pandas.jpg);
     background-size: cover;
+    font-family: 'DM Serif Display', serif;
+
+
+}
+h1{
+    text-align: center;
+}
+
+h1, p {
+    color: whitesmoke;
 }
