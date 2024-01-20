@@ -6,7 +6,7 @@ navigator.geolocation.getCurrentPosition((position) => {
 function doSomething(lat, long) {
     // send API to get weather data
     const xhttpr = new XMLHttpRequest();
-    xhttpr.open('GET', "https://api.openweathermap.org/data/2.5/forecast/daily?lat=44.34&lon=10.99&cnt=7&appid=e9fa625bcfcb48ae39d979f291c6553b", true); // 'https://api.openweathermap.org/data/2.5/forecast/daily?lat=' + lat + '&lon=' + long + '&appid=e9fa625bcfcb48ae39d979f291c6553b', true);
+    xhttpr.open('GET', "https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=e9fa625bcfcb48ae39d979f291c6553b", true); // 'https://api.openweathermap.org/data/2.5/forecast/daily?lat=' + lat + '&lon=' + long + '&appid=e9fa625bcfcb48ae39d979f291c6553b', true);
     
     xhttpr.send();
     
